@@ -1,6 +1,23 @@
+ul {
+  list-style-type: none;
+}
 /* statr anv */
 #header-nav {
   background-color: #3e3c3c;
 }
 
 /* end nav */
+.sectionone {
+  background-color: #1c1a19;
+}
+.heading {
+  color: #f55800;
+  font-size: 72px;
+}
+.back {
+  background-image: url(../imgs/Illustration-header@2x.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 92vh;
+}
