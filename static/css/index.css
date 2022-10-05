@@ -1,16 +1,36 @@
+body {
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+}
+
+ul {
+  list-style-type: none;
+}
 /* statr anv */
 #header-nav {
   background-color: #3e3c3c;
 }
 
 /* end nav */
-
-#main-bg-img {
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: top 5% right -10%;
+.sectionone {
+  background-color: #1c1a19;
+}
+.heading {
+  color: #f55800;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
 }
 
-main {
-  background-color: #1C1A19;
+.back {
+  background-image: url(../imgs/Illustration-header@2x.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 92vh;
+}
+
+#myLogo {
+  padding-left: 5%;
 }

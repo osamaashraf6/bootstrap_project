@@ -14,68 +14,124 @@
     <!-- start css file  -->
     <link rel="stylesheet" href="static/css/index.css" />
     <!-- end css file -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
     <title>Bootstrap project</title>
   </head>
   <body>
-    <!-- start header -->
-    <header>
-      <!-- start nav -->
+    <!-- start nav -->
 
-      <nav class="navbar navbar-expand-sm navbar-dark" id="header-nav">
-        <div class="container-fluid mx-5">
-          <a class="navbar-brand" href="javascript:void(0)">John Doe</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#mynavbar"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link text-white" href="javascript:void(0)">Portoflio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="javascript:void(0)">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="javascript:void(0)">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="javascript:void(0)"
-                  ><i class="far fa-envelope"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-sm navbar-dark " id="header-nav">
+      <div class="container-fluid mx-5">
+        <a id="myLogo" class="navbar-brand ms-5" href="javascript:void(0)">John Doe</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="javascript:void(0)"
+                >Portoflio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="javascript:void(0)">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="javascript:void(0)"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="javascript:void(0)"
+                ><i class="far fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
-    <main>
-      <div id="main-bg-img" class="bg-image" style="background-image: url(/static/images/bg-img.png); height: 100vh;">
       </div>
-    <!-- Background image -->
-      
-      
-    </main>
+    </nav>
 
-    <section>
-      <div class="container mx-lg-4"> 
+    <!-- end nav -->
+    <!-- start sectionone -->
+    <section class="sectionone">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col">
-            <h1>My Recent Works</h1>
+          <div class="col-6 d-flex align-items-center ps-5">
+            <div class="row">
+              <div class="col-2  d-flex justify-content-start">
+                <nav class="navbar">
+                  <ul class="navbar-nav ">
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#" target="_blank"
+                        ><i class="fab fa-hand-peace"></i
+                      ></a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link text-white"
+                        href="https://twitter.com/lmunozm"
+                        target="_blank"
+                      >
+                        <i class="fab fa-twitter fa-lg"></i
+                      ></a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link text-white"
+                        href="https://www.linkedin.com/in/luis-munoz-manriquez/"
+                        target="_blank"
+                      >
+                        <i class="fab fa-linkedin-in fa-lg"></i
+                      ></a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link text-white"
+                        href="https://github.com/lmunozm1702"
+                        target="_blank"
+                      >
+                        <i class="fab fa-github fa-lg"></i
+                      ></a>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link text-white"
+                        href="https://medium.com/@lmunozm1702"
+                        target="_blank"
+                      >
+                        <i class="fab fa-medium fa-lg"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-10 ">
+                <h1 class="heading">Hey There.<br> I’m Alex</h1>
+                <h3 class="text-white">I’am a Software Developer</h3>
+                <p class="text-white">
+                  I can help you build a product , feature or website Look
+                  through some of my work and experience! If you like what you
+                  see and have a project you need coded, don’t hestiate to
+                  contact me.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col">
-            <img src="/static/images/Vector.png" alt="vector">
-          </div>
+          <div class="col-6 back"></div>
         </div>
       </div>
     </section>
-    <!-- end header-->
-    <!-- end nav -->
+    <!-- end sectionone -->
     <!-- start icons  -->
     <script
       src="https://kit.fontawesome.com/7280065e63.js"
