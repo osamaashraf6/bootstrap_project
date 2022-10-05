@@ -5,18 +5,18 @@ body {
 ul {
   list-style-type: none;
 }
-/* statr anv */
+
 #header-nav {
   background-color: #3e3c3c;
 }
 
-/* end nav */
 .sectionone {
   background-color: #1c1a19;
 }
+
 .heading {
   color: #f55800;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
