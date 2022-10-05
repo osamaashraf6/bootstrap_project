@@ -8,9 +8,7 @@
 #main-bg-img {
   background-repeat: no-repeat;
   background-size: 50%;
-  -webkit-transform: rotate(-20deg);
-  -moz-transform: rotate(-20deg);
-  background-position: bottom right -10%;
+  background-position: top 5% right -10%;
 }
 
 main {
