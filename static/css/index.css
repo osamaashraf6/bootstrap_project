@@ -1,0 +1,36 @@
+body {
+  font-family: 'Inter', 'Times New Roman', Times, serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#header-nav {
+  background-color: #3e3c3c;
+}
+
+.sectionone {
+  background-color: #1c1a19;
+}
+
+.heading {
+  color: #f55800;
+  font-family: 'Crete Round', 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+}
+
+.back {
+  background-image: url(../imgs/Illustration-header@2x.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 92vh;
+}
+
+#myLogo {
+  padding-left: 5%;
+}
